@@ -98,215 +98,71 @@ export async function deleteContact(id: string) {
 [
   {
     avatar:
-      "https://sessionize.com/image/124e-400o400o2-wHVdAuNaxi8KJrgtN3ZKci.jpg",
-    first: "Shruti",
-    last: "Kapoor",
-    twitter: "@shrutikapoor08",
+      "https://proassetspdlcom.cdnstatics2.com/usuaris/libros/thumbs/71b825a3-36b0-442b-8327-22f5a47a3d66/d_360_620/portada_habitos-atomicos_james-clear_202002111200.webp",
+    first: "habitos atomicos",
+    last: "",
+  
   },
   {
     avatar:
-      "https://sessionize.com/image/1940-400o400o2-Enh9dnYmrLYhJSTTPSw3MH.jpg",
-    first: "Glenn",
-    last: "Reyes",
-    twitter: "@glnnrys",
+      "https://imagenes.leadersummaries.com/lsm/Entity/884338C8D3549F65ABF0302612AFF74E/1F39421B868938717A54AA3F5358F938/105f6f37-8725-4176-8925-bf9ca36a1b5e.jpg@300@490@75",
+    first: "Comase ese sapo",
+    last: "",
+    
   },
   {
     avatar:
-      "https://sessionize.com/image/9273-400o400o2-3tyrUE3HjsCHJLU5aUJCja.jpg",
-    first: "Ryan",
-    last: "Florence",
+      "https://acdn.mitiendanube.com/stores/003/646/219/products/img_3269-efcf2e166aea03640b17235111832599-1024-1024.webp",
+    first: "si lo crees lo creas",
+    last: "",
   },
   {
     avatar:
-      "https://sessionize.com/image/d14d-400o400o2-pyB229HyFPCnUcZhHf3kWS.png",
-    first: "Oscar",
-    last: "Newman",
-    twitter: "@__oscarnewman",
+      "https://images.cdn3.buscalibre.com/fit-in/360x360/cd/46/cd46e9a081c0db1b3a472e3f8392fe49.jpg",
+    first: "la biblia de los caidos tomo 1 testamento del gris", 
+    last: "",
+    
   },
   {
     avatar:
-      "https://sessionize.com/image/fd45-400o400o2-fw91uCdGU9hFP334dnyVCr.jpg",
-    first: "Michael",
-    last: "Jackson",
+      "https://m.media-amazon.com/images/I/71Y1X15vApL._SL1430_.jpg",
+    first: "la bilia de los caidos tomo 1",
+    last: "",
   },
   {
     avatar:
-      "https://sessionize.com/image/b07e-400o400o2-KgNRF3S9sD5ZR4UsG7hG4g.jpg",
-    first: "Christopher",
-    last: "Chedeau",
-    twitter: "@Vjeux",
+      "https://m.media-amazon.com/images/I/91X9JvoDZuL._UF1000,1000_QL80_.jpg",
+    first: "la biblia de los caidos tomo 1 testament de MAD",
+    last: "",
+    
   },
   {
     avatar:
-      "https://sessionize.com/image/262f-400o400o2-UBPQueK3fayaCmsyUc1Ljf.jpg",
-    first: "Cameron",
-    last: "Matheson",
-    twitter: "@cmatheson",
+      "https://image.cdn0.buscalibre.com/5b5783d2f4df733a238b4569.__RS360x360__.jpg",
+    first: "La biblia de los caidos tomo 1 testamento de nila",
+    last: "",
+    
   },
   {
     avatar:
-      "https://sessionize.com/image/820b-400o400o2-Ja1KDrBAu5NzYTPLSC3GW8.jpg",
-    first: "Brooks",
-    last: "Lybrand",
-    twitter: "@BrooksLybrand",
+      "https://static.wixstatic.com/media/ad1118_8881024d65dd492b93d65ce13718f798~mv2.png/v1/fill/w_458,h_694,al_c,lg_1,q_85,enc_auto/ad1118_8881024d65dd492b93d65ce13718f798~mv2.png",
+    first: "La biblia de los caidos tomo 1 testamento de roja",
+    last: "",
+    
   },
   {
     avatar:
-      "https://sessionize.com/image/df38-400o400o2-JwbChVUj6V7DwZMc9vJEHc.jpg",
-    first: "Alex",
-    last: "Anderson",
-    twitter: "@ralex1993",
+      "https://http2.mlstatic.com/D_NQ_NP_786554-MLU74238692083_012024-O.webp",
+    first: "la biblia de los caidos tomo 2 testamento de sombra",
+    last: "",
+    
   },
   {
     avatar:
-      "https://sessionize.com/image/5578-400o400o2-BMT43t5kd2U1XstaNnM6Ax.jpg",
-    first: "Kent C.",
+      "https://images.cdn2.buscalibre.com/fit-in/360x360/31/56/3156ae43531756e8dea126a64a3f4b5d.jpg",
+    first: "la biblia de los caidos tomo 1 testament de sombra",
     last: "Dodds",
-    twitter: "@kentcdodds",
-  },
-  {
-    avatar:
-      "https://sessionize.com/image/c9d5-400o400o2-Sri5qnQmscaJXVB8m3VBgf.jpg",
-    first: "Nevi",
-    last: "Shah",
-    twitter: "@nevikashah",
-  },
-  {
-    avatar:
-      "https://sessionize.com/image/2694-400o400o2-MYYTsnszbLKTzyqJV17w2q.png",
-    first: "Andrew",
-    last: "Petersen",
-  },
-  {
-    avatar:
-      "https://sessionize.com/image/907a-400o400o2-9TM2CCmvrw6ttmJiTw4Lz8.jpg",
-    first: "Scott",
-    last: "Smerchek",
-    twitter: "@smerchek",
-  },
-  {
-    avatar:
-      "https://sessionize.com/image/08be-400o400o2-WtYGFFR1ZUJHL9tKyVBNPV.jpg",
-    first: "Giovanni",
-    last: "Benussi",
-    twitter: "@giovannibenussi",
-  },
-  {
-    avatar:
-      "https://sessionize.com/image/f814-400o400o2-n2ua5nM9qwZA2hiGdr1T7N.jpg",
-    first: "Igor",
-    last: "Minar",
-    twitter: "@IgorMinar",
-  },
-  {
-    avatar:
-      "https://sessionize.com/image/fb82-400o400o2-LbvwhTVMrYLDdN3z4iEFMp.jpeg",
-    first: "Brandon",
-    last: "Kish",
-  },
-  {
-    avatar:
-      "https://sessionize.com/image/fcda-400o400o2-XiYRtKK5Dvng5AeyC8PiUA.png",
-    first: "Arisa",
-    last: "Fukuzaki",
-    twitter: "@arisa_dev",
-  },
-  {
-    avatar:
-      "https://sessionize.com/image/c8c3-400o400o2-PR5UsgApAVEADZRixV4H8e.jpeg",
-    first: "Alexandra",
-    last: "Spalato",
-    twitter: "@alexadark",
-  },
-  {
-    avatar:
-      "https://sessionize.com/image/7594-400o400o2-hWtdCjbdFdLgE2vEXBJtyo.jpg",
-    first: "Cat",
-    last: "Johnson",
-  },
-  {
-    avatar:
-      "https://sessionize.com/image/5636-400o400o2-TWgi8vELMFoB3hB9uPw62d.jpg",
-    first: "Ashley",
-    last: "Narcisse",
-    twitter: "@_darkfadr",
-  },
-  {
-    avatar:
-      "https://sessionize.com/image/6aeb-400o400o2-Q5tAiuzKGgzSje9ZsK3Yu5.JPG",
-    first: "Edmund",
-    last: "Hung",
-    twitter: "@_edmundhung",
-  },
-  {
-    avatar:
-      "https://sessionize.com/image/30f1-400o400o2-wJBdJ6sFayjKmJycYKoHSe.jpg",
-    first: "Clifford",
-    last: "Fajardo",
-    twitter: "@cliffordfajard0",
-  },
-  {
-    avatar:
-      "https://sessionize.com/image/6faa-400o400o2-amseBRDkdg7wSK5tjsFDiG.jpg",
-    first: "Erick",
-    last: "Tamayo",
-    twitter: "@ericktamayo",
-  },
-  {
-    avatar:
-      "https://sessionize.com/image/feba-400o400o2-R4GE7eqegJNFf3cQ567obs.jpg",
-    first: "Paul",
-    last: "Bratslavsky",
-    twitter: "@codingthirty",
-  },
-  {
-    avatar:
-      "https://sessionize.com/image/c315-400o400o2-spjM5A6VVfVNnQsuwvX3DY.jpg",
-    first: "Pedro",
-    last: "Cattori",
-    twitter: "@pcattori",
-  },
-  {
-    avatar:
-      "https://sessionize.com/image/eec1-400o400o2-HkvWKLFqecmFxLwqR9KMRw.jpg",
-    first: "Andre",
-    last: "Landgraf",
-    twitter: "@AndreLandgraf94",
-  },
-  {
-    avatar:
-      "https://sessionize.com/image/c73a-400o400o2-4MTaTq6ftC15hqwtqUJmTC.jpg",
-    first: "Monica",
-    last: "Powell",
-    twitter: "@indigitalcolor",
-  },
-  {
-    avatar:
-      "https://sessionize.com/image/cef7-400o400o2-KBZUydbjfkfGACQmjbHEvX.jpeg",
-    first: "Brian",
-    last: "Lee",
-    twitter: "@brian_dlee",
-  },
-  {
-    avatar:
-      "https://sessionize.com/image/f83b-400o400o2-Pyw3chmeHMxGsNoj3nQmWU.jpg",
-    first: "Sean",
-    last: "McQuaid",
-    twitter: "@SeanMcQuaidCode",
-  },
-  {
-    avatar:
-      "https://sessionize.com/image/a9fc-400o400o2-JHBnWZRoxp7QX74Hdac7AZ.jpg",
-    first: "Shane",
-    last: "Walker",
-    twitter: "@swalker326",
-  },
-  {
-    avatar:
-      "https://sessionize.com/image/6644-400o400o2-aHnGHb5Pdu3D32MbfrnQbj.jpg",
-    first: "Jon",
-    last: "Jensen",
-    twitter: "@jenseng",
+    
   },
 ].forEach((contact) => {
   fakeContacts.create({
