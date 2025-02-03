@@ -2,17 +2,27 @@ import { json } from "@remix-run/node";
 import { Form, useLoaderData } from "@remix-run/react";
 import type { FunctionComponent } from "react";
 import type { ContactRecord } from "../data";
+import type { LoaderFunctionArgs } from "@remix-run/node";
+import invariant from "tiny-invariant";
+
 import { getContact } from "../data";
 
 
-export const loader = async ({ params }) => {
+export const loader = async ({ params }: LoaderFunctionArgs) => {
+  invariant(params.contactId, "No contactId provided");
   const contact = await getContact(params.contactId);
+
+  if(!contact){
+    throw new Response("Not Found", {status: 404});
+  }  
+
   return json({ contact });
 };
 
 export default function Contact() {
-  
   const { contact } = useLoaderData<typeof loader>();
+
+
 
   return (
     <div id="contact">
@@ -36,17 +46,17 @@ export default function Contact() {
           <Favorite contact={contact} />
         </h1>
 
-        {contact.twitter ? (
+        {contact.autor ? (
           <p>
             <a
-              href={`https://twitter.com/${contact.twitter}`}
+              href={`https://twitter.com/${contact.autor}`}
             >
-              {contact.twitter}
+              {contact.autor}
             </a>
           </p>
         ) : null}
 
-        {contact.notes ? <p>{contact.notes}</p> : null}
+        {/* {contact.notes ? <p>{contact.notes}</p> : null} */}
 
         <div>
           <Form action="edit">

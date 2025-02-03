@@ -1,5 +1,9 @@
 node_modules
 
+counter.tsx
+counter2.tsx
+counter3.tsx
+
 /.cache
 /build
 .env

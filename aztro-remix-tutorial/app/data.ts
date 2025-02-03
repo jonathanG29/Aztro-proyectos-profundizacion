@@ -12,7 +12,7 @@ type ContactMutation = {
   first?: string;
   last?: string;
   avatar?: string;
-  twitter?: string;
+  autor?: string;
   notes?: string;
   favorite?: boolean;
 };
@@ -67,7 +67,7 @@ export async function getContacts(query?: string | null) {
   let contacts = await fakeContacts.getAll();
   if (query) {
     contacts = matchSorter(contacts, query, {
-      keys: ["first", "last"],
+      keys: ["first", "autor"],
     });
   }
   return contacts.sort(sortBy("last", "createdAt"));
@@ -100,7 +100,7 @@ export async function deleteContact(id: string) {
     avatar:
       "https://proassetspdlcom.cdnstatics2.com/usuaris/libros/thumbs/71b825a3-36b0-442b-8327-22f5a47a3d66/d_360_620/portada_habitos-atomicos_james-clear_202002111200.webp",
     first: "habitos atomicos",
-    last: "",
+    autor: "James Clear",
   
   },
   {
@@ -108,32 +108,35 @@ export async function deleteContact(id: string) {
       "https://imagenes.leadersummaries.com/lsm/Entity/884338C8D3549F65ABF0302612AFF74E/1F39421B868938717A54AA3F5358F938/105f6f37-8725-4176-8925-bf9ca36a1b5e.jpg@300@490@75",
     first: "Comase ese sapo",
     last: "",
-    
+    autor: "Brian Tracy",
   },
   {
     avatar:
       "https://acdn.mitiendanube.com/stores/003/646/219/products/img_3269-efcf2e166aea03640b17235111832599-1024-1024.webp",
     first: "si lo crees lo creas",
     last: "",
+    autor: "Brian Tracy",
   },
   {
     avatar:
       "https://images.cdn3.buscalibre.com/fit-in/360x360/cd/46/cd46e9a081c0db1b3a472e3f8392fe49.jpg",
     first: "la biblia de los caidos tomo 1 testamento del gris", 
     last: "",
-    
+    autor: "Fernando Trujillo",
   },
   {
     avatar:
       "https://m.media-amazon.com/images/I/71Y1X15vApL._SL1430_.jpg",
     first: "la bilia de los caidos tomo 1",
     last: "",
+    autor: "Fernando Trujillo",
   },
   {
     avatar:
       "https://m.media-amazon.com/images/I/91X9JvoDZuL._UF1000,1000_QL80_.jpg",
     first: "la biblia de los caidos tomo 1 testament de MAD",
     last: "",
+    autor: "Fernando Trujillo",
     
   },
   {
@@ -141,32 +144,32 @@ export async function deleteContact(id: string) {
       "https://image.cdn0.buscalibre.com/5b5783d2f4df733a238b4569.__RS360x360__.jpg",
     first: "La biblia de los caidos tomo 1 testamento de nila",
     last: "",
-    
+    autor: "Fernando Trujillo",
   },
   {
     avatar:
       "https://static.wixstatic.com/media/ad1118_8881024d65dd492b93d65ce13718f798~mv2.png/v1/fill/w_458,h_694,al_c,lg_1,q_85,enc_auto/ad1118_8881024d65dd492b93d65ce13718f798~mv2.png",
     first: "La biblia de los caidos tomo 1 testamento de roja",
     last: "",
-    
+    autor: "Fernando Trujillo",
   },
   {
     avatar:
       "https://http2.mlstatic.com/D_NQ_NP_786554-MLU74238692083_012024-O.webp",
     first: "la biblia de los caidos tomo 2 testamento de sombra",
     last: "",
-    
+    autor: "Fernando Trujillo",
   },
   {
     avatar:
       "https://images.cdn2.buscalibre.com/fit-in/360x360/31/56/3156ae43531756e8dea126a64a3f4b5d.jpg",
     first: "la biblia de los caidos tomo 1 testament de sombra",
     last: "Dodds",
-    
+    autor: "Fernando Trujillo",
   },
 ].forEach((contact) => {
   fakeContacts.create({
     ...contact,
-    id: `${contact.first.toLowerCase()}-${contact.last.toLocaleLowerCase()}`,
+    id: `${contact.first.toLowerCase()}-}`,
   });
 });
