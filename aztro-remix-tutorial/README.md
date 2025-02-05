@@ -110,3 +110,25 @@ function ParentComponent() {
   );
 }
 ~~~
+
+### invariant
+
+Una invariante es una condición que se mantiene verdadera durante la ejecución de un programa o durante la vida útil de una estructura de datos.
+
+Las invariantes se utilizan para:
+
+- Verificación de Correctitud: Asegurar que el programa se comporta como se espera.
+- Facilitar el Razonamiento: Hacer más fácil entender y razonar sobre el código.
+- Depuración: Ayudar a identificar errores al verificar que las invariantes se mantienen durante la ejecución.
+
+### useLoaderData
+
+Los loaders son funciones que se ejecutan en el servidor antes de que se renderice una página, y su propósito es cargar los datos necesarios para esa página.
+
+### UseActionData
+
+useActionData es un hook proporcionado por Remix que se utiliza para acceder a los datos retornados por una acción en una ruta.
+
+- Definición de la Acción: La acción es una función asíncrona que maneja la lógica cuando se envía un formulario. En este ejemplo, se obtiene el valor del campo name del formulario y se realiza una validación simple.
+
+- Retorno de Datos: La acción retorna datos usando json, que es una función de Remix para serializar los datos en formato JSON.
